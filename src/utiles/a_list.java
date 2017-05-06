@@ -9,6 +9,6 @@ package utiles;
  *
  * @author sergio
  */
-class Coincidencias {
+public class a_list {
     
 }
