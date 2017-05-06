@@ -3,6 +3,8 @@
  */
 package utiles;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 /**
@@ -15,8 +17,11 @@ public class Utiles {
     public static void main(String[] args) {
        
         Scanner texto = new Scanner (System.in);
+        
+       
+    }
         }// fin main
         
         
-    }//
+
     
