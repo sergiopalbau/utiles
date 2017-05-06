@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Coleccion de metodos y expresiones de los datos mas utilzados 
  */
 package utiles;
 
@@ -10,7 +8,8 @@ import java.util.regex.Pattern;
 
 /**
  *
- * @author sergio
+ * @author Servio Palomo
+ * @version 0
  */
 public class ExpRegulares {
     //listado de expresiones regulares 

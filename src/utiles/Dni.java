@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 
 /**
  *utilidades con referencia al dni
- * @author sergio
+ * @author Sergio Palomo
  *
  */
 public class Dni {

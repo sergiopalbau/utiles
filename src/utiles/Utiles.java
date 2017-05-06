@@ -1,10 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * clase principal para hacer pruebas, nada interesante aqui dentro
  */
 package utiles;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -21,15 +20,24 @@ public class Utiles {
     public static void main(String[] args) {
        
         Scanner texto = new Scanner (System.in);
-        
-       String muestra  = "71429864y";
-      if ( ExpRegulares.comparaPatron(ExpRegulares.pDniNie, muestra))
-      {
-          System.out.println("hay coincidencia");
-      }else
-      {
-          System.out.println("no hay conicidencia");
-      }
+     
+        /*
+      Lee.leeCadena();
+      Lee.leeCadena ("introduzca una linea:");
+      */
+    
+  
+      Lee.leeInt();
+      Lee.leeInt("Introduzca un entero");
+      
+      Lee.leeFloat();
+      Lee.leeFloat("introduzca un Float");
+      
+      Lee.leeDouble();
+      Lee.leeDouble("introduzca un double");
+      
+     
+            
        
                    
       
